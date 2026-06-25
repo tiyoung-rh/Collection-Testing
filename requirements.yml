@@ -1,6 +1,6 @@
-Collections 
+collections: 
   - name: infra.ado
-    version: 1.0.0
+    version: "1.0.0"
   - name: community.crypto
   - name: redhat.satellite
     version: 5.4.0
