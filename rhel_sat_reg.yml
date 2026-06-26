@@ -12,4 +12,4 @@
         rhel_sat_reg_satellite_host: "http://sat.server.lab"
         rhel_sat_reg_action: "register"  # or "deregister"
         rhel_sat_reg_insecure: true
-        rhel_sat_reg_validate_certs: false
+        rhel_sat_reg_validate_certs: false  
