@@ -1,0 +1,10 @@
+- hosts: all
+  gather_facts: false
+  become: true
+  roles:
+    - role: infra.ado.rhel_facts
+
+  tasks:
+    - name: Show pretty summary
+      ansible.builtin.debug:
+        msg: "{{ rhel_facts_fact_lines | join('\n') }}"
