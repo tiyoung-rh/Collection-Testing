@@ -1,0 +1,14 @@
+all:
+  children: 
+  rhel-8:
+      hosts: 
+      rhel-8-tyoung:
+          ansible_host: 192.168.0.93
+    rhel-9:
+      hosts:
+        rhel-9-tyoung:
+          ansible_host: 192.168.0.100
+    rhel-10:
+      hosts:
+        rhel-10-tyoung:
+          ansible_host: 192.168.0.102
