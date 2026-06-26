@@ -7,7 +7,7 @@
       vars:
         rhel_sat_reg_org_admin_account: "admin"
         rhel_sat_reg_org_admin_account_password: "{{ vault_sat_password }}"
-        rhel_sat_reg_activation_key_name: "rhel-9"
+        rhel_sat_reg_activation_key_name: "{{ satkey }}"
         rhel_sat_reg_satellite_org_name: "Lab"
         rhel_sat_reg_satellite_host: "http://sat.server.lab"
         rhel_sat_reg_action: "register"  # or "deregister"
